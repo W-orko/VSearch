@@ -1,6 +1,10 @@
 # VSearch
 Recreation of the visual search paradigm experiment by Treisman and Gelade (1980) [1] [2].
 
+Instructions
+
+The .m MATLAB file can be run in the MATLAB environment, or the .app can be unzipped and run directly.
+
 Background
 
 The measurement of reaction times can function as a proximal measurement of underlying cognitive processes, specifically their number and complexity. This is based on assumptions that both the number of mental operations and their complexity are positively correlated with the time it takes to execute them. The landmark study by Treisman and Gelade (1980) provided experimental evidence in support of there being a feature primitive (core categories by which we group environmental stimuli) and serial search (one-by-one searching of stimuli) cognitive operations in the human brain.
