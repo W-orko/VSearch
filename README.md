@@ -16,4 +16,5 @@ At the end of the test, a correlation test is carried out and inferences are dis
 References
 
 [1] A. M. Treisman and G. Gelade, "A feature-integration theory of attention," Cognitive Psychology, vol. 12, (1), pp. 97-136, 1980.
+
 [2] P. Wallisch et al, MATLAB for Neuroscientists, 2nd Edition. (2nd ed.) 2014.
