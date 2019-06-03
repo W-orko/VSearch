@@ -7,6 +7,8 @@
 % outputs a graph of the reaction times for correct responses for each type
 % of test.
 
+function [] = VisualSearch()
+
 
 %%  Initialization
 
@@ -154,7 +156,7 @@ else
     disp('There is no statistically significant correlation between element set size and reaction times in the pop-out test.');
 end
 if r_conj(1,2) > 0 && p_conj(1,2) < 0.05
-    disp('[There is a statistically significant positive correlation (p = ' num2str(p_conj(1,2)) ') between element set size and reaction times in the conjunction test.']);
+    disp(['There is a statistically significant positive correlation (p = ' num2str(p_conj(1,2)) ') between element set size and reaction times in the conjunction test.']);
 elseif r_conj(1,2) < 0 && p_conj(1,2) < 0.05
     disp(['There is a statistically significant negative correlation (p = ' num2str(p_conj(1,2)) ') between element set size and reaction times in the conjunction test.']);
 else
@@ -178,3 +180,4 @@ legend('Pop-Out','Conjunction','Pop-Out Linear Fit','Conjunction Linear Fit')
 xlabel('Element Set Size')
 ylabel('Reaction time (s)')
 title('Effect of element set size on reaction times for Pop-Out and Conjunction tests')
+end
