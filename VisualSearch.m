@@ -163,12 +163,8 @@ end
 
 
 
-% Plot reaction times
-% clf
-% plot(times_correct_pop, 'LineWidth', 3, 'Color', 'r')
-% hold on
-% plot(times_correct_conj, 'LineWidth', 3, 'Color', 'b')
-% legend('Pop-Out','Conjunction')
+% Plot reaction times against element size and produce linear fits
+
 clf
 scatter(sizes_correct_pop,times_correct_pop,'s','DisplayName','Pop-Out')
 hold on
